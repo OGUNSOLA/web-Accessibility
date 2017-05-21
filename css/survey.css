@@ -1,0 +1,77 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+fieldset{
+  border: none;
+}
+
+#hint{
+  text-indent: -1500px;
+}
+
+#signUp {
+  text-indent: -2500px;
+}
+#warning {
+display:none;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+input:focus  {
+  background: #ffd699;
+}
+
+
+
+select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+select:focus,textarea:focus{
+  background: #ffd699;
+}
+
+button:focus{
+  background: #ffd699;
+}
+/*
+#john,#hazard,#bob,#sally {
+  margin-left: 20px;
+}*/
+
+
+label {
+  margin-right: 20px;
+}
+
+legend {
+  color :#ffd699;
+  margin-bottom: 15px;
+}
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
